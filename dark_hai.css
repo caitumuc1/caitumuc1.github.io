@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Arial, Sans-Serif;
+}
+
+body {
+    margin: 0;
+    background-color: #45312b;
+}
+
+a {
+    color: #02f100;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+h1 {
+    font-size: 50px;
+}
+
+header {
+    background-color: #b32dfa;
+    margin-bottom: 20px;
+}
+
+    header a {
+        background-image: url('DarkGreyImages/Header.jpg');
+        background-repeat: repeat;
+        width: 9000px;
+        height: 100px;
+        display: block;
+    }
+
+nav {
+    height: 500px;
+    width: 100px;
+    float: left;
+    padding: 10px;
+    padding-top: 0;
+    background-color: #e48843;
+    margin-left: 35px;
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+
+section#MainContent {
+    color: white;
+    font-size: 0.8em;
+    width: 600px;
+    min-height: 508px;
+    padding: 10px;
+    float: left;
+    margin-left: 50px;
+}
+
+aside#Sidebar {
+    font-size: 0.8em;
+    width: 150px;
+    color: White;
+    float: left;
+    padding-top: 10px;
+    margin-left: 200px;
+}
+
+footer {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    clear: both;
+    background-color: #808080;
+  
+}
+
+.Introduction {
+    font-style: italic;
+}
