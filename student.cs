@@ -21,17 +21,17 @@ namespace WpfApp1
             }
         }
         //3.Định nghĩa phương thức khởi tạo Student(string stName)
-        public void Student(string stName)
-        
+        public void student(string stName)
+        {
+
             Name = stName;
         }
-   
-    private void btnTalk_Click(object sender, RoutedEventArgs e)
-    {
-        Student st1 = new Student("Minh");
-        st.Talk();
-        Student st2 = new Student();
-        st1.StudentName = "Dung";
-        st1.Talk();
+        //4.Định nghĩa phương thức Talk() giới thiệu
+        //Tên của sinh viên thông qua MessageBox
+        public virtual void Talk()
+        {
+            MessageBox.Show("Chao Hai!");
+
+        }
     }
 }
