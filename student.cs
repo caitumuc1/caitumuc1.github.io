@@ -23,7 +23,7 @@ namespace WpfApp1
         //3.Định nghĩa phương thức khởi tạo Student(string stName)
         public void Student(string stName)
         
-            Console.WriteLine("Student.");
+            Name = stName;
         }
    
     private void btnTalk_Click(object sender, RoutedEventArgs e)
